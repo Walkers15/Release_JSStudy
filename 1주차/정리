@@ -1,1 +1,100 @@
-ㄴ
+191108
+
+https://walkers15.github.io/Release_JSStudy/ - 내 깃헙에서 만든 사이트! by html
+(웹 호스팅 기능의 이해)
+————--기본——————
+<meta charset="utf-8">
+<HTML>
+<HEAD>
+<TITLE> HTML 태그 표현하기 </TITLE>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE="javascript">
+<!--
+document.write("<FONT color = blue size = 7>")
+document.write(" FONT 태그 사용하기");
+document.write(" </FONT>");
+document.write(" <BR>");
+document.write(" 줄바꿈 ‶+‶태그 BR 이용하기");
+//-->
+</SCRIPT>
+<NOSCRIPT> javascript off</NOSCRIPT>
+</BODY>
+</HTML>
+————————————-(in 컴실)
+
+https://opentutorials.org/course/3084/18890
+ㄴ여기까지의 내용을 이 코스 따라서 리와인드했습니다!
+
+이만큼 들었음
+
+https://opentutorials.org/course/50 - 자바스크립트 사전, 객채 & 메소드 참고
+자바스크립트 연산 - 기본적으로 자바와 동일
+스트링 붙이는 법 “~~~” + “~~~”
+ex)alert(“Hello” + “, World!”);
+
+오류 확인하는 법
+
+변수 선언하는 법(자료형 자동 인식,Casting)
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+</head>
+<body>
+<script>
+id = prompt('아이디를 입력해주세요.')
+if(id=='egoing'){
+alert('아이디가 일치 합니다.')
+} else {
+alert('아이디가 일치하지 않습니다.')
+}
+</script>
+</body>
+</html>
+
+자바 함수 호출하는 법!
+C처럼 선언하여 호출하기
+
+function printHello(){
+    document.write(“Hello,world!”);
+}
+
+function() 메소드를 사용하여 호출하기
+
+1
+2
+3
+4
+5
+6
+7
+8
+var numbering = function (){
+i = 0;
+while(i < 10){
+document.write(i);
+i += 1;
+}
+}
+numbering();
+자바 배열 선언하는 법
+	var valname = [‘data1’ , ‘data2’, ‘data’]; //대괄호를 사용하여 배열 선언!
+
+배열 & 함수 관련 예제
+
+
+※톡방에 올린 예제 왜 안돌아가는지 확인할 것!
+ㄴ name이 예약어여서,,,, name1 로 하면 잘돌아감ㅠ
+
+
+배열에 원소를 추가하고 제거하기
+추가
+push(), concat(),unshift(),splice()
+	push() 배열에 끝에 “하나” 추가
+	concat 배열에 끝에 “여러 개의 원소” 추가
+	unshift() 배열에 맨 앞에 하나 추가
+
+-----------------------------
+191111

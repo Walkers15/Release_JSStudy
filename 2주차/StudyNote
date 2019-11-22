@@ -101,5 +101,6 @@ function setupHelp() {
 }
 
 setupHelp();
--makeHelpCallback함수의 클로저의 지역 변수(fuction)을 통해 개인이 클로저를 가지게 함
+-makeHelpCallback함수의 클로저의 지역 변수(fuction)을 통해 개인이 클로저를 가지게 한다.
 
+함수
